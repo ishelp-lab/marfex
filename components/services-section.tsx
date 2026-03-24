@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Ruler, Sparkles, Truck, ShieldCheck, axis-3d } from "lucide-react"
+import { Ruler, Sparkles, Truck, ShieldCheck } from "lucide-react"
 
 const services = [
   {
@@ -27,18 +27,6 @@ const services = [
     title: "4 Tipos de Serras",
     description:
       "Extremamente mecanizado com equipamento específico para cada tipo de pedra e acabamento desejado.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Reaproveitamento de Água",
-    description:
-      "Sistema sustentável de reuso de água, demonstrando compromisso ambiental e eficiência operacional",
-  },
-  {
-    icon: Axis-3d,
-    title: "Modelagem 3D",
-    description:
-      "Visualize seu projeto antes da execução com desenhos em 3D precisos e realistas.",
   }
 ]
 
