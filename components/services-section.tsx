@@ -1,29 +1,29 @@
 "use client"
 
 import Image from "next/image"
-import { Ruler, Sparkles, Truck, ShieldCheck } from "lucide-react"
+import { Settings, Layers, Square, Grid } from "lucide-react"
 
 const services = [
   {
-    icon: Ruler,
+    icon: Settings,
     title: "Serra Ponte Automática",
     description:
       "Precisão de milímetros com calibração constante. Se detectar 1mm fora, desliga automaticamente. Alto padrão incomparável.",
   },
   {
-    icon: Sparkles,
+    icon: Layers,
     title: "Poliborda Automática",
     description:
       "Precisão robótica garantindo o mesmo padrão exato em todas as unidades. Perfeito para projetos em série.",
   },
   {
-    icon: Truck,
+    icon: Square,
     title: "Máquina de 45°",
     description:
       "Cortes em 45 graus que ninguém mais consegue fazer. Acabamento premium em junções e cantos.",
   },
   {
-    icon: ShieldCheck,
+    icon: Grid,
     title: "4 Tipos de Serras",
     description:
       "Extremamente mecanizado com equipamento específico para cada tipo de pedra e acabamento desejado.",
@@ -40,14 +40,13 @@ export function ServicesSection() {
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
-            Nossos servicos
+            Nossos diferenciais
           </p>
           <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl text-balance">
-            Excelencia em pedra natural
+            Tecnologia que ninguém pode competir
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            Do atendimento ao acabamento final, voce recebe um projeto sob medida com
-            materiais selecionados e instalacao profissional.
+            Equipamentos de última geração garantem precisão milimétrica e acabamento incomparável em cada projeto.
           </p>
         </div>
 
