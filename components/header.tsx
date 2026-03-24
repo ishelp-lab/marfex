@@ -63,7 +63,7 @@ export function Header() {
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-accent hover:scale-105"
           >
             <Phone className="h-4 w-4" />
-            Pedir Orcamento
+            Orcamento
           </a>
         </div>
 

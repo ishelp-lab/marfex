@@ -1,33 +1,45 @@
 "use client"
 
 import Image from "next/image"
-import { Ruler, Sparkles, Truck, ShieldCheck } from "lucide-react"
+import { Ruler, Sparkles, Truck, ShieldCheck, axis-3d } from "lucide-react"
 
 const services = [
   {
     icon: Ruler,
-    title: "Projetos sob medida",
+    title: "Serra Ponte Automática",
     description:
-      "Bancadas, revestimentos, escadas e soleiras com medicoes precisas para encaixe perfeito.",
+      "Precisão de milímetros com calibração constante. Se detectar 1mm fora, desliga automaticamente. Alto padrão incomparável.",
   },
   {
     icon: Sparkles,
-    title: "Acabamento premium",
+    title: "Poliborda Automática",
     description:
-      "Polimento, corte e finalizacao com tecnicas que valorizam cada detalhe da pedra natural.",
+      "Precisão robótica garantindo o mesmo padrão exato em todas as unidades. Perfeito para projetos em série.",
   },
   {
     icon: Truck,
-    title: "Entrega e instalacao",
+    title: "Máquina de 45°",
     description:
-      "Equipe especializada para transporte seguro e instalacao com agilidade e cuidado.",
+      "Cortes em 45 graus que ninguém mais consegue fazer. Acabamento premium em junções e cantos.",
   },
   {
     icon: ShieldCheck,
-    title: "Garantia de qualidade",
+    title: "4 Tipos de Serras",
     description:
-      "Materiais selecionados e processos rigorosos para resultados que duram a vida toda.",
+      "Extremamente mecanizado com equipamento específico para cada tipo de pedra e acabamento desejado.",
   },
+  {
+    icon: ShieldCheck,
+    title: "Reaproveitamento de Água",
+    description:
+      "Sistema sustentável de reuso de água, demonstrando compromisso ambiental e eficiência operacional",
+  },
+  {
+    icon: Axis-3d,
+    title: "Modelagem 3D",
+    description:
+      "Visualize seu projeto antes da execução com desenhos em 3D precisos e realistas.",
+  }
 ]
 
 export function ServicesSection() {

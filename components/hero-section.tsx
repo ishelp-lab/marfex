@@ -36,13 +36,11 @@ export function HeroSection() {
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
             Marmoraria Marfex
           </p>
-          <h1 className="font-serif text-4xl font-bold leading-tight text-card md:text-6xl lg:text-7xl text-balance">
-            Beleza natural que transforma ambientes
+          <h1 className="font-serif text-4xl font-bold leading-tight text-card md:text-6xl lg:text-6xl text-balance">
+            Ambientes de qualidade para quem se preocupa com os detalhes
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-card/80">
-            Confie em quem entende de perfeicao. Seu projeto merece o brilho e
-            a elegancia que impressionam, com marmores, granitos e quartzitos
-            selecionados.
+            Há mais de uma década transformando ambientes com a mais alta tecnologia em corte e acabamento de pedras naturais.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -59,7 +57,7 @@ export function HeroSection() {
               href="/materiais"
               className="inline-flex items-center gap-2 rounded-full border-2 border-card/30 px-8 py-4 text-sm font-bold uppercase tracking-wide text-card transition-all hover:border-primary hover:text-primary"
             >
-              Ver materiais
+              CONHEÇA NOSSOS MATERIAIS
             </Link>
           </div>
         </div>
