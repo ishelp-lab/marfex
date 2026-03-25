@@ -12,7 +12,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Confie%20em%20quem%20entende%20de%20perfei%C3%A7%C3%A3o%21%E2%9C%A8Cada%20detalhe%20do%20m%C3%A1rmore%20revela%20brilho%2C%20eleg%C3%A2ncia%20e%20acabamen-9wRjR5A2bNaiwD41IpiW4hVLBVHRPI.jpg"
+                src="/images/trust-img.jpg"
                 alt="Marmoraria Marfex - Confie em quem entende de perfeicao"
                 fill
                 className="object-cover"

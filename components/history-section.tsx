@@ -16,6 +16,11 @@ export function HistorySection() {
                 height={700}
                 className="h-full w-full object-cover"
               />
+              
+              <div className="absolute -bottom-6 -right-6 rounded-2xl bg-primary p-6 text-primary-foreground shadow-xl md:-right-8">
+              <p className="text-4xl font-bold">500+</p>
+              <p className="text-sm font-medium text-primary-foreground/80" >Projetos realizados</p>
+            </div>
             </div>
           </div>
 
