@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Instagram, Phone, MapPin, Mail } from "lucide-react"
-import { MarfexLogo } from "./marfex-logo"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,7 +9,13 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-4">
           {/* Brand */}
           <div className="md:col-span-1">
-            <MarfexLogo className="h-14 w-auto mb-6" dark />
+            <Image
+              src="/images/logo-marfex-invertido.png"
+              alt="Marfex"
+              width={180}
+              height={60}
+              className="h-auto w-[160px]"
+            />
             <p className="text-sm leading-relaxed text-card/70">
               Especialistas em marmores, granitos e quartzitos.
               Transformando ambientes com acabamento premium desde 2018.

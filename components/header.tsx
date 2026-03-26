@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X, Phone } from "lucide-react"
-import { MarfexLogo } from "./marfex-logo"
+import Image from "next/image"
 
 const navLinks = [
   { label: "Inicio", href: "/" },
@@ -31,11 +31,15 @@ export function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <Link href="/" aria-label="Pagina inicial">
-          <MarfexLogo
-            className="h-12 w-auto"
-            dark={!scrolled}
+          <Image
+            src="/images/logo-marfex.png"
+            alt="Marfex"
+            width={120}
+            height={60}
+            className="h-auto w-[70px] md:w-[84px]"
+            priority
           />
         </Link>
 
