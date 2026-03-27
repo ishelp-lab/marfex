@@ -31,24 +31,24 @@ export function AboutSection() {
               Sobre nos
             </p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl text-balance">
-              Confie em quem entende de perfeicao
+              Confie em quem entende de perfeição
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               A Marmoraria Marfex e especializada em projetos sob medida com marmore,
               granito e quartzito para ambientes sofisticados. Unimos qualidade superior
-              e um acabamento impecavel para valorizar sua casa ou comercio.
+              e um acabamento impecável para valorizar sua casa ou comércio.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Seu projeto merece o brilho e a elegancia que impressionam. Cada detalhe do
-              marmore revela sofisticacao, e nossa equipe cuida de tudo para voce.
+              Seu projeto merece o brilho e a elegância que impressionam. Cada detalhe do
+              mármore revela sofisticação, e nossa equipe cuida de tudo para você.
             </p>
 
             <ul className="mt-8 flex flex-col gap-4">
               {[
-                "Equipe especializada e experiente",
-                "Materiais selecionados com criterio",
-                "Medicoes e cortes de alta precisao",
-                "Instalacao profissional no capricho",
+                "Equipe especializada e experiênte",
+                "Materiais selecionados com critério",
+                "Medições e cortes de alta precisão",
+                "Instalação profissional no capricho",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <CheckCircle className="h-5 w-5 shrink-0 text-primary" />

@@ -19,8 +19,8 @@ export default function MateriaisPage() {
         <section className="relative flex items-end overflow-hidden pb-16 pt-32 md:pt-40">
           <div className="absolute inset-0">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Beleza%20natural%20que%20transforma%20ambientes.%20%E2%9C%A8Escolha%20o%20m%C3%A1rmore%20ideal%20e%20leve%20sofistica%C3%A7%C3%A3o%20para%20cada%20-YM8FYmOzv7L6UMU9cWtbIm3ao2FsqN.jpg"
-              alt="Tipos de marmores disponiveis"
+              src="/images/cover-material.jpg"
+              alt="Tipos de mármores disponíveis"
               fill
               className="object-cover"
               priority
@@ -58,7 +58,7 @@ export default function MateriaisPage() {
               </p>
             </div>
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5534988647571"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex shrink-0 items-center rounded-full bg-card px-8 py-3 text-sm font-bold uppercase tracking-wide text-primary transition-all hover:scale-105"

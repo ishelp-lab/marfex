@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Award, Calendar, Users } from "lucide-react"
+import { Award, Calendar, Leaf, Droplets, Sun } from "lucide-react"
 
 export function HistorySection() {
   return (
@@ -45,6 +45,18 @@ export function HistorySection() {
               indicações e de um trabalho pautado em precisão, acabamento e atendimento próximo.
             </p>
 
+            <div className="mt-6 flex flex-wrap gap-3">
+  <div className="flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-xs text-muted-foreground">
+    <Droplets className="h-4 w-4 text-primary" />
+    Reaproveitamento de água no processo produtivo
+  </div>
+
+  <div className="flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-xs text-muted-foreground">
+    <Sun className="h-4 w-4 text-primary" />
+    Uso de energia fotovoltaica nas operações
+  </div>
+</div>
+
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
                 <Calendar className="mx-auto mb-3 h-6 w-6 text-primary" />
@@ -53,15 +65,15 @@ export function HistorySection() {
               </div>
 
               <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
-                <Users className="mx-auto mb-3 h-6 w-6 text-primary" />
-                <div className="text-3xl font-bold text-foreground">1000+</div>
-                <div className="mt-2 text-sm text-muted-foreground">Clientes satisfeitos</div>
-              </div>
-
-              <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
                 <Award className="mx-auto mb-3 h-6 w-6 text-primary" />
                 <div className="text-3xl font-bold text-foreground">100%</div>
                 <div className="mt-2 text-sm text-muted-foreground">Qualidade garantida</div>
+              </div>
+
+              <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
+                <Leaf className="mx-auto mb-3 h-6 w-6 text-primary" />
+                <div className="text-3xl font-bold text-foreground">100%</div>
+                <div className="mt-2 text-sm text-muted-foreground">Energia Renovável e Reaproveitamento hídrico</div>
               </div>
             </div>
           </div>

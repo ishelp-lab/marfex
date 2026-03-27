@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: "Beatriz Fernandes",
     location: "Projeto residencial",
-    text: "Excelente atendimento, preco justo! A entrega foi super rapida, eu amei o resultado, as pedras ficaram perfeitas. Fez toda diferenca na minha cozinha e banheiros.",
+    text: "Excelente atendimento, preço justo! A entrega foi super rapida, eu amei o resultado, as pedras ficaram perfeitas. Fez toda diferença na minha cozinha e banheiros.",
     rating: 5,
   },
   {
     name: "Carlos Eduardo",
-    location: "Area gourmet",
-    text: "Profissionalismo do comeco ao fim. A equipe fez medicoes precisas e o acabamento ficou impecavel. Recomendo sem duvida a Marfex!",
+    location: "Área Gourmet",
+    text: "Profissionalismo do começo ao fim. A equipe fez medições precisas e o acabamento ficou impecável. Recomendo sem dúvida a Marfex!",
     rating: 5,
   },
   {
     name: "Ana Paula Silva",
     location: "Projeto comercial",
-    text: "Trabalho de excelencia! O atendimento consultivo nos ajudou a escolher a melhor pedra para nosso escritorio. O resultado superou nossas expectativas.",
+    text: "Trabalho de excelência! O atendimento consultivo nos ajudou a escolher a melhor pedra para nosso escritório. O resultado superou nossas expectativas.",
     rating: 5,
   },
 ]
@@ -36,7 +36,7 @@ export function TestimonialsSection() {
             O que nossos clientes dizem
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            Atendimento consultivo, acabamento impecavel e entrega no prazo.
+            Atendimento consultivo, acabamento impecável e entrega no prazo.
           </p>
         </div>
 

@@ -8,7 +8,7 @@ import Image from "next/image"
 const navLinks = [
   { label: "Inicio", href: "/" },
   { label: "Materiais", href: "/materiais" },
-  { label: "Servicos", href: "/#servicos" },
+  { label: "Serviços", href: "/#servicos" },
   { label: "Sobre", href: "/#sobre" },
   { label: "Contato", href: "/#contato" },
 ]
@@ -61,13 +61,13 @@ export function Header() {
         {/* CTA */}
         <div className="hidden items-center gap-4 md:flex">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5534988647571"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-accent hover:scale-105"
           >
             <Phone className="h-4 w-4" />
-            Orcamento
+            Orçamento
           </a>
         </div>
 
@@ -96,7 +96,7 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5534988647571"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground"

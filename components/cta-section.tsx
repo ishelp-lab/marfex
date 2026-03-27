@@ -18,12 +18,12 @@ export function CtaSection() {
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/80">
           Envie uma mensagem no WhatsApp e receba um atendimento rapido para escolher a
-          melhor pedra, entender medidas, prazo e ter um orcamento sob medida — sem compromisso.
+          melhor pedra, entender medidas, prazo e ter um orcamento sob medida, sem compromisso.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5534988647571"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-card px-8 py-4 text-sm font-bold uppercase tracking-wide text-primary transition-all hover:scale-105 hover:shadow-lg"
@@ -32,7 +32,7 @@ export function CtaSection() {
             Chamar no WhatsApp
           </a>
           <a
-            href="tel:+5500000000000"
+            href="tel:+5534988647571"
             className="inline-flex items-center gap-2 rounded-full border-2 border-primary-foreground/30 px-8 py-4 text-sm font-bold uppercase tracking-wide text-primary-foreground transition-all hover:border-primary-foreground hover:bg-primary-foreground/10"
           >
             <Phone className="h-4 w-4" />
@@ -41,9 +41,9 @@ export function CtaSection() {
         </div>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-8 text-xs font-medium uppercase tracking-wider text-primary-foreground/60">
-          <span>Orcamento sem compromisso</span>
+          <span>Orçamento sem compromisso</span>
           <span className="hidden sm:block">|</span>
-          <span>Resposta rapida</span>
+          <span>Resposta rápida</span>
           <span className="hidden sm:block">|</span>
           <span>Acabamento premium</span>
         </div>

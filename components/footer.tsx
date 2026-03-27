@@ -17,7 +17,7 @@ export function Footer() {
               className="h-auto w-[160px]"
             />
             <p className="text-sm leading-relaxed text-card/70">
-              Especialistas em marmores, granitos e quartzitos.
+              Especialistas em mármores, granitos e quartzitos.
               Transformando ambientes com acabamento premium desde 2018.
             </p>
           </div>
@@ -25,7 +25,7 @@ export function Footer() {
           {/* Links */}
           <div>
             <h4 className="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">
-              Navegacao
+              Navegação
             </h4>
             <ul className="flex flex-col gap-3">
               <li>
@@ -40,12 +40,12 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/#servicos" className="text-sm text-card/70 transition-colors hover:text-primary">
-                  Servicos
+                  Serviços
                 </Link>
               </li>
               <li>
                 <Link href="/#sobre" className="text-sm text-card/70 transition-colors hover:text-primary">
-                  Sobre nos
+                  Sobre nós
                 </Link>
               </li>
             </ul>
@@ -54,14 +54,14 @@ export function Footer() {
           {/* Services */}
           <div>
             <h4 className="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">
-              Servicos
+              Serviços
             </h4>
             <ul className="flex flex-col gap-3">
               <li className="text-sm text-card/70">Bancadas sob medida</li>
               <li className="text-sm text-card/70">Revestimentos</li>
               <li className="text-sm text-card/70">Escadas e soleiras</li>
               <li className="text-sm text-card/70">Lavabos e banheiros</li>
-              <li className="text-sm text-card/70">Areas gourmet</li>
+              <li className="text-sm text-card/70">Áreas gourmet</li>
             </ul>
           </div>
 
@@ -73,15 +73,15 @@ export function Footer() {
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3 text-sm text-card/70">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                Rua Exemplo, 123 - Centro, Cidade - UF
+                Av. Dr. Danilo Cunha, 125 - Bom Jesus, Araxá - MG
               </li>
               <li className="flex items-center gap-3 text-sm text-card/70">
                 <Phone className="h-4 w-4 shrink-0 text-primary" />
-                (00) 00000-0000
+                (34) 98864-7571
               </li>
               <li className="flex items-center gap-3 text-sm text-card/70">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
-                contato@marfex.com.br
+                f.bvasconcelos@hotmail.com
               </li>
             </ul>
             <div className="mt-6 flex items-center gap-4">
@@ -101,7 +101,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 border-t border-card/10 pt-8 text-center">
           <p className="text-xs text-card/50">
-            {'© 2025 Marmoraria Marfex. Todos os direitos reservados.'}
+            {'© 2026 Marmoraria Marfex. Todos os direitos reservados.'}
           </p>
         </div>
       </div>

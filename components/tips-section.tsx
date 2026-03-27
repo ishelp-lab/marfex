@@ -27,7 +27,7 @@ export function TipsSection() {
       {/* Background */}
       <div className="absolute inset-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Quer%20manter%20o%20m%C3%A1rmore%20sempre%20bonito%20%E2%9C%A8%F0%9F%AA%A8Com%20alguns%20cuidados%20simples%20no%20dia%20a%20dia%2C%20sua%20pedra%20perma%20%281%29-n6hL3j16tLf14YrP6HSwq8UCzjXqZG.jpg"
+          src="https://c.pxhere.com/photos/ac/37/marble_background_backdrop_marble_background_surface_gray_stone_texture-1062793.jpg!d"
           alt="Interior de cozinha sofisticada"
           fill
           className="object-cover"
@@ -41,7 +41,7 @@ export function TipsSection() {
             Dicas de cuidado
           </p>
           <h2 className="font-serif text-3xl font-bold leading-tight text-card md:text-5xl text-balance">
-            Quer manter o marmore sempre bonito?
+            Quer manter o mármore sempre bonito?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-card/70">
             Com alguns cuidados simples no dia a dia, sua pedra permanece impecavel.

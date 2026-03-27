@@ -73,7 +73,7 @@ export function LocationSection() {
               </p>
 
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5534988647571"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
