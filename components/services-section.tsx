@@ -42,7 +42,7 @@ export function ServicesSection() {
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
             Nossos diferenciais
           </p>
-          <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl text-balance">
+          <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
             Tecnologia que ninguém pode competir
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
@@ -74,7 +74,7 @@ export function ServicesSection() {
         <div className="mt-20 grid gap-4 md:grid-cols-3">
           <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Quando%20a%20cozinha%20fala%20por%20si.Pedra%2C%20corte%20e%20acabamento%20no%20m%C3%A1ximo.Marfex%20n%C3%A3o%20brinca%21%F0%9F%98%89..Por-%20%40is_-NfvoOqrJfp6hgpOiG3cMikQd1VPxgE.jpg"
+              src="/images/kitchen-marble.jpg"
               alt="Cozinha com acabamento em marmore"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"

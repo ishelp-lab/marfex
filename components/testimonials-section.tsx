@@ -1,6 +1,6 @@
 "use client"
 
-import { Star, Quote } from "lucide-react"
+import { Star, Quote, ExternalLink } from "lucide-react"
 
 const testimonials = [
   {
@@ -23,7 +23,9 @@ const testimonials = [
   },
 ]
 
-export function TestimonialsSection() {
+export function TestimonialsSection()
+ {
+  const googleReviewsUrl = "https://www.google.com/search?q=marmoraria+marfex&rlz=1C1ONGR_pt-PTBR1168BR1168&oq=marmoraria+marf&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5MggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIGCAYQRRg8MgYIBxBFGDzSAQgzMzUxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x94b0372233ec74b3:0xca17ce57c2e968e8,3,,,,"
   return (
     <section className="bg-muted py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
@@ -32,7 +34,7 @@ export function TestimonialsSection() {
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
             Depoimentos
           </p>
-          <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl text-balance">
+          <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
             O que nossos clientes dizem
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
@@ -63,6 +65,17 @@ export function TestimonialsSection() {
             </div>
           ))}
         </div>
+        <div className="mt-10 flex justify-center">
+  <a
+    href={googleReviewsUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-semibold text-foreground transition hover:bg-accent hover:text-accent-foreground"
+  >
+    Avaliar no Google
+    <ExternalLink className="h-4 w-4" />
+  </a>
+</div>
       </div>
     </section>
   )

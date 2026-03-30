@@ -13,7 +13,7 @@ export function CtaSection() {
         <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary-foreground/70">
           Pronto para transformar?
         </p>
-        <h2 className="font-serif text-3xl font-bold leading-tight text-primary-foreground md:text-5xl text-balance">
+        <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/marble-texture.jpg')" }}>
           Transforme suas superficies com pedra natural
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/80">

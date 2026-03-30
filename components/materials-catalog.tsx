@@ -46,7 +46,7 @@ function StoneCard({ stone }: { stone: Stone }) {
             ))}
           </div>
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5534988647571"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center rounded-full bg-card px-5 py-2 text-xs font-bold text-primary transition-all hover:scale-105"

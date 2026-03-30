@@ -36,9 +36,12 @@ export function HeroSection() {
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-blue-400">
             Marmoraria Marfex
           </p>
-          <h1 className="font-serif text-4xl font-bold leading-tight text-card md:text-6xl lg:text-6xl text-balance">
-            A assinatura de luxo que o seu projeto merece.
-          </h1>
+          <h1
+  className="font-serif text-4xl font-bold leading-tight text-transparent md:text-6xl bg-cover bg-center bg-clip-text"
+  style={{ backgroundImage: "url('/images/marble-texture.jpg')" }}
+>
+  A assinatura de luxo que o seu projeto merece.
+</h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-card/80">
             Espaços atemporais projetados para quem valoriza a precisão em cada detalhe.
           </p>

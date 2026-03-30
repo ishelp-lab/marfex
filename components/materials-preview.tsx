@@ -23,7 +23,7 @@ export function MaterialsPreview() {
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
               Nosso acervo
             </p>
-            <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl text-balance">
+            <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
               Materiais selecionados
             </h2>
             <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground">

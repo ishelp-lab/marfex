@@ -12,7 +12,7 @@ export function LocationSection() {
             Localização
           </p>
 
-          <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl">
+          <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
             Venha nos visitar
           </h2>
 

@@ -31,10 +31,10 @@ export function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
-        <Link href="/" aria-label="Pagina inicial">
+      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
+        <Link href="/" className="flex items-center">
           <Image
-            src="/images/logo-marfex.png"
+            src={scrolled ? "/images/logo-marfex.png" : "/images/logo-marfex-invertido.png"}
             alt="Marfex"
             width={120}
             height={60}

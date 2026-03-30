@@ -19,18 +19,32 @@ export function AboutSection() {
               />
             </div>
             {/* Floating stat card */}
-            <div className="absolute -bottom-6 -right-6 rounded-2xl bg-primary p-6 text-primary-foreground shadow-xl md:-right-8">
-              <p className="text-4xl font-bold">500+</p>
-              <p className="text-sm font-medium text-primary-foreground/80">Projetos realizados</p>
-            </div>
+            <div className="absolute -bottom-6 -right-6 md:-bottom-8 md:-right-8 rounded-2xl overflow-hidden shadow-xl">
+
+  {/* Textura */}
+  <div className="absolute inset-0 bg-[url('/images/bg.jpg')] bg-cover bg-center" />
+
+  {/* Overlay escuro (ESSENCIAL) */}
+  <div className="absolute inset-0 bg-black/50" />
+
+  {/* Conteúdo */}
+  <div className="relative z-10 p-6 text-white">
+    <p className="text-4xl font-bold">0.1 mm</p>
+    <p className="text-sm font-medium text-white/80">
+      Precisão milimétrica
+    </p>
+  </div>
+
+</div>
           </div>
+          
 
           {/* Content */}
           <div>
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
               Sobre nos
             </p>
-            <h2 className="font-serif text-3xl font-bold leading-tight text-foreground md:text-5xl text-balance">
+            <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
               Confie em quem entende de perfeição
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
