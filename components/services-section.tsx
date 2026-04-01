@@ -8,7 +8,7 @@ const services = [
     icon: Settings,
     title: "Serra Ponte Automática",
     description:
-      "Precisão de milímetros com calibração constante. Se detectar 1mm fora, desliga automaticamente. Alto padrão incomparável.",
+      "Precisão de milímetros com calibração constante. Alto padrão incomparável.",
   },
   {
     icon: Layers,
@@ -20,13 +20,13 @@ const services = [
     icon: Square,
     title: "Máquina de 45°",
     description:
-      "Cortes em 45 graus que ninguém mais consegue fazer. Acabamento premium em junções e cantos.",
+      "Cortes em 45° altamente mecanizados, dando acabamento premium em junções e cantos.",
   },
   {
     icon: Grid,
-    title: "4 Tipos de Serras",
+    title: "Variedade em cortes",
     description:
-      "Extremamente mecanizado com equipamento específico para cada tipo de pedra e acabamento desejado.",
+      "Extremamente mecanizado com equipamento específico para cada tipo de projeto, pedra e acabamento único.",
   }
 ]
 

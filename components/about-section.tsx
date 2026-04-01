@@ -42,7 +42,7 @@ export function AboutSection() {
           {/* Content */}
           <div>
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
-              Sobre nos
+              Sobre nós
             </p>
             <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
               Confie em quem entende de perfeição
@@ -59,7 +59,7 @@ export function AboutSection() {
 
             <ul className="mt-8 flex flex-col gap-4">
               {[
-                "Equipe especializada e experiênte",
+                "Equipe especializada e experiente",
                 "Materiais selecionados com critério",
                 "Medições e cortes de alta precisão",
                 "Instalação profissional no capricho",

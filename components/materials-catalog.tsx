@@ -51,7 +51,7 @@ function StoneCard({ stone }: { stone: Stone }) {
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center rounded-full bg-card px-5 py-2 text-xs font-bold text-primary transition-all hover:scale-105"
           >
-            Pedir orcamento
+            Pedir orçamento
           </a>
         </div>
       </div>

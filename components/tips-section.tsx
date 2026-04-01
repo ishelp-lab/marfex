@@ -7,16 +7,16 @@ const tips = [
   {
     icon: Ban,
     title: "Evite produtos abrasivos",
-    description: "Use apenas detergente neutro e pano macio para a limpeza diaria.",
+    description: "Use apenas detergente neutro e pano macio para a limpeza diária.",
   },
   {
     icon: Droplets,
-    title: "Limpe liquidos imediatamente",
-    description: "Quanto mais rapido limpar, menor o risco de manchas na pedra.",
+    title: "Limpe líquidos imediatamente",
+    description: "Quanto mais rápido limpar, menor o risco de manchas na pedra.",
   },
   {
     icon: Shield,
-    title: "Faca impermeabilizacao periodica",
+    title: "Faça impermeabilização preiódica",
     description: "Ela ajuda a preservar a durabilidade e beleza da pedra por muito mais tempo.",
   },
 ]
@@ -44,7 +44,7 @@ export function TipsSection() {
             Quer manter o mármore sempre bonito?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-card/70">
-            Com alguns cuidados simples no dia a dia, sua pedra permanece impecavel.
+            Com alguns cuidados simples no dia a dia, sua pedra permanece impecável.
           </p>
         </div>
 

@@ -35,7 +35,7 @@ export default function MateriaisPage() {
               Materiais
             </h1>
             <p className="mt-4 max-w-lg text-base leading-relaxed text-card/80">
-              Explore nossa selecao exclusiva de marmores, granitos, quartzos e quartzitos.
+              Explore nossa seleção exclusiva de mármores, granitos, quartzos e quartzitos.
               Filtre por tipo, cor e encontre a pedra perfeita para o seu projeto.
             </p>
           </div>
@@ -44,6 +44,14 @@ export default function MateriaisPage() {
         {/* Catalog */}
         <section className="py-12 md:py-16">
           <MaterialsCatalog />
+          <div className="mt-16 max-w-2xl mx-auto text-center">
+            <p className="text-xs uppercase tracking-[0.3em] text-primary mb-3">
+              Observação importante
+            </p>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Cada pedra é única. Por se tratar de um material natural, variações de tonalidade e veios são características que tornam cada projeto exclusivo.
+            </p>
+          </div>
         </section>
 
         {/* CTA strip */}
@@ -51,7 +59,7 @@ export default function MateriaisPage() {
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 md:flex-row">
             <div>
               <h3 className="text-xl font-bold text-primary-foreground">
-                Nao encontrou o que procura?
+                Não encontrou o que procura?
               </h3>
               <p className="mt-1 text-sm text-primary-foreground/80">
                 Trabalhamos com dezenas de outras pedras. Entre em contato e nos conte seu projeto.

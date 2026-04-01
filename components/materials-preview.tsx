@@ -27,8 +27,8 @@ export function MaterialsPreview() {
               Materiais selecionados
             </h2>
             <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground">
-              Cada pedra e escolhida com criterio para entregar beleza, durabilidade
-              e sofisticacao ao seu projeto.
+              Cada pedra e escolhida com critério para entregar beleza, durabilidade
+              e sofisticação ao seu projeto.
             </p>
           </div>
           <Link
@@ -64,6 +64,14 @@ export function MaterialsPreview() {
             </Link>
           ))}
         </div>
+        <div className="mt-16 max-w-2xl mx-auto text-center">
+  <p className="text-xs uppercase tracking-[0.3em] text-primary mb-3">
+    Observação importante
+  </p>
+  <p className="text-sm text-muted-foreground leading-relaxed">
+    Cada pedra é única. Por se tratar de um material natural, variações de tonalidade e veios são características que tornam cada projeto exclusivo.
+  </p>
+</div>
       </div>
     </section>
   )
