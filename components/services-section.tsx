@@ -1,9 +1,16 @@
 "use client"
 
 import Image from "next/image"
-import { Settings, Layers, Square, Grid } from "lucide-react"
+import { Settings, Layers, Square, Grid, Ruler } from "lucide-react"
 
 const services = [
+  {
+    icon: Ruler,
+    title: "Experiência e profissionalismo na medição",
+    description:
+      "O texto virá aqui",
+    featured: true,
+  },
   {
     icon: Settings,
     title: "Serra Ponte Automática",
@@ -27,7 +34,7 @@ const services = [
     title: "Variedade em cortes",
     description:
       "Extremamente mecanizado com equipamento específico para cada tipo de projeto, pedra e acabamento único.",
-  }
+  },
 ]
 
 export function ServicesSection() {
@@ -53,20 +60,39 @@ export function ServicesSection() {
         {/* Services grid */}
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {services.map((service) => (
+            
             <div
-              key={service.title}
-              className="group rounded-2xl bg-card p-8 shadow-sm transition-all hover:shadow-lg hover:-translate-y-1"
-            >
-              <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                <service.icon className="h-6 w-6" />
-              </div>
-              <h3 className="mb-3 text-lg font-bold text-foreground">
-                {service.title}
-              </h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                {service.description}
-              </p>
-            </div>
+  key={service.title}
+  className={`group relative rounded-2xl p-8 transition-all hover:-translate-y-1 hover:shadow-lg ${
+    service.featured
+      ? "border border-primary/30 bg-primary/5 shadow-md"
+      : "bg-card shadow-sm"
+  }`}
+>
+  {service.featured && (
+    <span className="absolute right-4 top-4 rounded-full border border-primary/20 bg-background/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-primary backdrop-blur-sm">
+      Essencial
+    </span>
+  )}
+
+  <div
+    className={`mb-6 flex h-14 w-14 items-center justify-center rounded-xl transition-colors ${
+      service.featured
+        ? "bg-primary text-primary-foreground"
+        : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground"
+    }`}
+  >
+    <service.icon className="h-6 w-6" />
+  </div>
+
+  <h3 className="mb-3 text-lg font-bold text-foreground">
+    {service.title}
+  </h3>
+
+  <p className="text-sm leading-relaxed text-muted-foreground">
+    {service.description}
+  </p>
+</div>
           ))}
         </div>
 
