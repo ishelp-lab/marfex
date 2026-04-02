@@ -51,8 +51,7 @@ export function AboutSection() {
               A Marmoraria Marfex é especializada em projetos sob medida em rochas ornamentais e rochas sintéticas. Unimos a experiência em qualidade e tecnologia em um acabamento único e impecável.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Seu projeto merece o brilho e a elegância que impressionam. Cada detalhe do
-              mármore revela sofisticação, e nossa equipe cuida de tudo para você.
+              Seu projeto merece o brilho e a elegância que impressionam. Cada detalhe da rocha revela sua sofisticação e história nos seus veios marcantes. Sendo assim, somos responsáveis pela paginação e cuidado que sua pedra merece.
             </p>
 
             <ul className="mt-8 flex flex-col gap-4">
