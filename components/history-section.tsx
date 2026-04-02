@@ -38,14 +38,12 @@ export function HistorySection() {
             </h2>
 
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              Nossa história começou em 1998, quando o fundador iniciou sua jornada no mercado
-              de mármores e granitos. Em 2011, demos continuidade a essa tradição familiar,
+              Nossa história começou em 1998, quando o fundador iniciou sua jornada no mercado com vendas de peças decorativas e revestimentos. Em 2011, demos continuidade a essa tradição familiar,
               estabelecendo-nos em Araxá com o compromisso de oferecer excelência em cada projeto.
             </p>
 
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Ao longo dos anos, conquistamos a confiança de clientes exigentes por meio de
-              indicações e de um trabalho pautado em precisão, acabamento e atendimento próximo.
+              Ao longo dos anos, conquistamos a confiança de clientes, fornecedores e profissionais da área, apostamos em tecnologia com equipamentos de última geração e capacitação de pessoas. Sendo assim, a qualidade, compromisso e transparência, move a Marfex desde a sua fundação.
             </p>
 
             {/* Selinhos */}

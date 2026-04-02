@@ -48,9 +48,7 @@ export function AboutSection() {
               Confie em quem entende de perfeição
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              A Marmoraria Marfex e especializada em projetos sob medida com marmore,
-              granito e quartzito para ambientes sofisticados. Unimos qualidade superior
-              e um acabamento impecável para valorizar sua casa ou comércio.
+              A Marmoraria Marfex é especializada em projetos sob medida em rochas ornamentais e rochas sintéticas. Unimos a experiência em qualidade e tecnologia em um acabamento único e impecável.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
               Seu projeto merece o brilho e a elegância que impressionam. Cada detalhe do
@@ -59,7 +57,7 @@ export function AboutSection() {
 
             <ul className="mt-8 flex flex-col gap-4">
               {[
-                "Equipe especializada e experiente",
+                "Equipe especializada e expêriente",
                 "Materiais selecionados com critério",
                 "Medições e cortes de alta precisão",
                 "Instalação profissional no capricho",
