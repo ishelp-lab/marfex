@@ -1,42 +1,42 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import Image from "next/image"
 
 const materials = [
   {
     name: "Mármores",
-    image: "/images/showcase/marmores.jpg",
+    image: "/images/showcase/Mármore Bege Bahia.jpg",
     description:
       "Materiais naturais com elegância clássica e desenho único para projetos de alto padrão.",
   },
   {
     name: "Dolomíticos",
-    image: "/images/showcase/dolomiticos.jpg",
+    image: "/images/showcase/Dolomítico Branco Paraná.jpg",
     description:
       "Visual refinado e presença sofisticada para ambientes que pedem exclusividade.",
   },
   {
     name: "Quartzo",
-    image: "/images/showcase/quartzo.jpg",
+    image: "/images/showcase/Quartzo Branco Zeus.jpg",
     description:
       "Superfícies de alta performance com excelente acabamento e grande versatilidade.",
   },
   {
     name: "Quartzito",
-    image: "/images/showcase/quartzito.jpg",
+    image: "/images/showcase/Quartzito Emerald Green.jpg",
     description:
       "Material premium de alta resistência, ideal para projetos exigentes e sofisticados.",
   },
   {
     name: "Supernanoglass",
-    image: "/images/showcase/supernanoglass.jpg",
+    image: "/images/showcase/Super NanoGlass.png",
     description:
       "Estética contemporânea, visual uniforme e resultado marcante para propostas modernas.",
   },
   {
     name: "Lâminas",
-    image: "/images/showcase/laminas.jpg",
+    image: "/images/showcase/Lâminas.png",
     description:
       "Soluções versáteis para composições amplas, leves e com grande impacto visual.",
   },
@@ -50,7 +50,21 @@ const sinkFinishes = [
 
 export function MaterialsShowcaseSection() {
   const firstMaterial = useMemo(() => materials[0], [])
-  const [activeMaterial, setActiveMaterial] = useState(firstMaterial)
+  const [activeIndex, setActiveIndex] = useState(0)
+
+  const activeMaterial = materials[activeIndex] ?? firstMaterial
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % materials.length)
+    }, 5000)
+
+    return () => clearInterval(interval)
+  }, [])
+
+  const handleSelectMaterial = (index: number) => {
+    setActiveIndex(index)
+  }
 
   return (
     <section className="relative overflow-hidden py-24 md:py-32">
@@ -72,7 +86,10 @@ export function MaterialsShowcaseSection() {
             Personalização
           </p>
 
-          <h2 className="font-serif text-3xl font-bold leading-tight text-transparent md:text-5xl bg-clip-text" style={{ backgroundImage: "url('/images/marble-texture.jpg')" }}>
+          <h2
+            className="bg-clip-text font-serif text-3xl font-bold leading-tight text-transparent md:text-5xl"
+            style={{ backgroundImage: "url('/images/marble-texture.jpg')" }}
+          >
             Materiais e acabamentos para composições únicas
           </h2>
 
@@ -85,12 +102,13 @@ export function MaterialsShowcaseSection() {
         <div className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           {/* Imagem */}
           <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-2xl">
-            <div className="relative aspect-[4/5] w-full md:aspect-[16/10] lg:aspect-[4/5]">
+            <div className="relative mx-auto w-full max-w-[895px] aspect-[895/1200]">
               <Image
+                key={activeMaterial.image}
                 src={activeMaterial.image}
                 alt={activeMaterial.name}
                 fill
-                className="object-cover transition-opacity duration-500"
+                className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
 
@@ -108,31 +126,26 @@ export function MaterialsShowcaseSection() {
 
           {/* Conteúdo */}
           <div className="space-y-10">
-
-            <div className="pt-4">
+            <div className="mb-4 flex items-center gap-3">
               <a
                 href="/materiais"
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-primary/90            px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-all           hover:border-primary hover:bg-white hover:text-primary-foreground"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-primary/90 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-all hover:border-primary hover:bg-chart-4 hover:text-primary-foreground"
               >
                 Ver todos os materiais
               </a>
             </div>
-            <div>
-              <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
-                Materiais
-              </p>
 
+            <div>
               <div className="space-y-2">
-                {materials.map((material) => {
-                  const isActive = activeMaterial.name === material.name
+                {materials.map((material, index) => {
+                  const isActive = activeIndex === index
 
                   return (
                     <button
                       key={material.name}
                       type="button"
-                      onMouseEnter={() => setActiveMaterial(material)}
-                      onFocus={() => setActiveMaterial(material)}
-                      onClick={() => setActiveMaterial(material)}
+                      onClick={() => handleSelectMaterial(index)}
+                      onFocus={() => handleSelectMaterial(index)}
                       className={`group flex w-full items-center justify-between rounded-2xl border px-4 py-4 text-left transition-all duration-300 ${
                         isActive
                           ? "border-primary/40 bg-white/10 shadow-sm"
@@ -161,6 +174,7 @@ export function MaterialsShowcaseSection() {
                 })}
               </div>
             </div>
+
             <div>
               <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
                 Acabamentos para pias
@@ -179,9 +193,9 @@ export function MaterialsShowcaseSection() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
-              <p className="text-xs uppercase tracking-[0.3em] text-primary mb-3">
-    Observação importante
-  </p>
+              <p className="mb-3 text-xs uppercase tracking-[0.3em] text-primary">
+                Observação importante
+              </p>
               <p className="text-sm leading-relaxed text-white/70">
                 Por se tratarem de materiais naturais, cores, veios e nuances podem
                 variar de uma peça para outra, tornando cada projeto único.
