@@ -3,7 +3,8 @@ export interface Stone {
   name: string
   category:
     | "Marmore"
-    | "Quartzo"
+    | "Granito"
+    | "Quartzo" 
     | "Quartzito"
     | "Dolomitico"
     | "Supernanoglass"
@@ -47,6 +48,38 @@ export const stones: Stone[] = [
     applications: ["Lavabos", "Revestimentos", "Bancadas"],
   },
 
+  // GRANITOS
+{
+  id: "branco-siena",
+  name: "Granito Branco Siena",
+  category: "Granito",
+  color: "Branco",
+  image: "/images/stones/branco-siena.jpg",
+  description:
+    "Granito claro com ótima resistência e excelente custo-benefício para uso diário.",
+  applications: ["Cozinhas", "Bancadas", "Áreas Gourmet"],
+},
+{
+  id: "branco-itaunas",
+  name: "Granito Branco Itaúnas",
+  category: "Granito",
+  color: "Branco",
+  image: "/images/stones/branco-itaunas.jpg",
+  description:
+    "Tonalidade clara e uniforme, ideal para ambientes clean e funcionais.",
+  applications: ["Cozinhas", "Bancadas", "Banheiros"],
+},
+{
+  id: "preto-sao-gabriel",
+  name: "Granito Preto São Gabriel",
+  category: "Granito",
+  color: "Preto",
+  image: "/images/stones/preto-sao-gabriel.jpg",
+  description:
+    "Clássico preto profundo, extremamente resistente e versátil para diversos projetos.",
+  applications: ["Escadas", "Bancadas", "Áreas externas"],
+},
+
   // QUARTZOS
   {
     id: "branco-zeus",
@@ -89,11 +122,11 @@ export const stones: Stone[] = [
     applications: ["Bancadas", "Lavabos", "Cozinhas"],
   },
   {
-    id: "cinza-queixo",
-    name: "Quartzo Cinza Queixo",
+    id: "cinza-kensho",
+    name: "Quartzo Cinza Kensho",
     category: "Quartzo",
     color: "Cinza",
-    image: "/images/stones/cinza-queixo.jpg",
+    image: "/images/stones/cinza-kensho.jpg",
     description:
       "Tonalidade neutra e versátil para projetos contemporâneos.",
     applications: ["Bancadas", "Cozinhas", "Ilhas"],
@@ -210,7 +243,7 @@ export const stones: Stone[] = [
     id: "laminas-ultracompactas",
     name: "Lâminas Ultracompactas",
     category: "Laminas",
-    color: "Cinza",
+    color: "branco",
     image: "/images/stones/laminas.jpg",
     description:
       "Material tecnológico com alta resistência e design contemporâneo.",
@@ -221,6 +254,7 @@ export const stones: Stone[] = [
 export const categories = [
   "Todos",
   "Marmore",
+  "Granito",
   "Quartzo",
   "Quartzito",
   "Dolomitico",
