@@ -98,7 +98,7 @@ export function ServicesSection() {
 
         {/* Showcase images */}
         <div className="mt-20 grid gap-4 md:grid-cols-3">
-          <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl">
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
               src="/images/kitchen-marble.jpg"
               alt="Cozinha com acabamento em marmore"
@@ -108,11 +108,11 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Cozinhas
+                Escadas
               </span>
             </div>
           </div>
-          <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl">
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
               src="/images/bathroom-marble.jpg"
               alt="Banheiro com revestimento em marmore"
@@ -122,11 +122,11 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Banheiros
+                Pias
               </span>
             </div>
           </div>
-          <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl">
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
               src="/images/gourmet-area.jpg"
               alt="Area gourmet com bancada de marmore"
@@ -136,7 +136,49 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Areas Gourmet
+                Bordas de piscina
+              </span>
+            </div>
+          </div>
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
+            <Image
+              src="/images/gourmet-area.jpg"
+              alt="Area gourmet com bancada de marmore"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
+                Jazigos
+              </span>
+            </div>
+          </div>
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
+            <Image
+              src="/images/gourmet-area.jpg"
+              alt="Area gourmet com bancada de marmore"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
+                Ilhas
+              </span>
+            </div>
+          </div>
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
+            <Image
+              src="/images/gourmet-area.jpg"
+              alt="Area gourmet com bancada de marmore"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
+                Paredes
               </span>
             </div>
           </div>
