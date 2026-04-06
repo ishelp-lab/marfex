@@ -22,7 +22,6 @@ export default function HomePage() {
         <QuartzitoSection />
         <HistorySection />
         <MaterialsShowcaseSection />
-        <MaterialsPreview />
         <AboutSection />
         <TipsSection />
         <TestimonialsSection />
