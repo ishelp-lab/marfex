@@ -108,7 +108,7 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Escadas
+                Cozinhas
               </span>
             </div>
           </div>
@@ -122,7 +122,7 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Pias
+                Escadas
               </span>
             </div>
           </div>
@@ -136,7 +136,21 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Bordas de piscina
+                Lavatórios
+              </span>
+            </div>
+          </div>
+          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
+            <Image
+              src="/images/gourmet-area.jpg"
+              alt="Area gourmet com bancada de marmore"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
+                Bordas de Piscina
               </span>
             </div>
           </div>
@@ -164,21 +178,7 @@ export function ServicesSection() {
             <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Ilhas
-              </span>
-            </div>
-          </div>
-          <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
-            <Image
-              src="/images/gourmet-area.jpg"
-              alt="Area gourmet com bancada de marmore"
-              fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-foreground/20 transition-opacity group-hover:opacity-0" />
-            <div className="absolute bottom-0 left-0 right-0 p-6">
-              <span className="inline-block rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-primary-foreground uppercase tracking-wide">
-                Paredes
+                Espaços Gourmet
               </span>
             </div>
           </div>
