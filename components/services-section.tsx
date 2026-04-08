@@ -114,7 +114,7 @@ export function ServicesSection() {
           </div>
           <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
-              src="/images/bathroom-marble.jpg"
+              src="/images/stairs-marble.jpg"
               alt="Banheiro com revestimento em marmore"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -128,7 +128,7 @@ export function ServicesSection() {
           </div>
           <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
-              src="/images/gourmet-area.jpg"
+              src="/images/washbasin-marble.jpg"
               alt="Area gourmet com bancada de marmore"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -142,7 +142,7 @@ export function ServicesSection() {
           </div>
           <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
-              src="/images/gourmet-area.jpg"
+              src="/images/pool-marble.jpg"
               alt="Area gourmet com bancada de marmore"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -156,7 +156,7 @@ export function ServicesSection() {
           </div>
           <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
-              src="/images/gourmet-area.jpg"
+              src="/images/grave-marble.jpg"
               alt="Area gourmet com bancada de marmore"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -170,7 +170,7 @@ export function ServicesSection() {
           </div>
           <div className="group relative aspect-[9/10] overflow-hidden rounded-2xl">
             <Image
-              src="/images/gourmet-area.jpg"
+              src="/images/gourmet-space-marble.jpg"
               alt="Area gourmet com bancada de marmore"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
