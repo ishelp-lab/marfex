@@ -6,9 +6,9 @@ import { Settings, Layers, Square, Grid, Ruler } from "lucide-react"
 const services = [
   {
     icon: Ruler,
-    title: "Experiência e profissionalismo na medição",
+    title: "Medição Especializada",
     description:
-      "O texto virá aqui",
+      "Olhar técnico e medição rigorosa no local para a execução perfeita do seu projeto.",
     featured: true,
   },
   {
@@ -25,7 +25,7 @@ const services = [
   },
   {
     icon: Square,
-    title: "Máquina de 45°",
+    title: "Máquina de 45° automática",
     description:
       "Cortes em 45° altamente mecanizados, dando acabamento premium em junções e cantos.",
   },
@@ -50,10 +50,10 @@ export function ServicesSection() {
             Nossos diferenciais
           </p>
           <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
-            Tecnologia que ninguém pode competir
+            Transformamos rochas milenares com tecnologia moderna
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            Equipamentos de última geração garantem precisão milimétrica e acabamento incomparável em cada projeto.
+            Maquinários de corte preciso que garantem precisão milimétrica e acabamento incomparável em cada projeto.
           </p>
         </div>
 

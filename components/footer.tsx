@@ -57,11 +57,12 @@ export function Footer() {
               Serviços
             </h4>
             <ul className="flex flex-col gap-3">
-              <li className="text-sm text-card/70">Bancadas sob medida</li>
-              <li className="text-sm text-card/70">Revestimentos</li>
-              <li className="text-sm text-card/70">Escadas e soleiras</li>
-              <li className="text-sm text-card/70">Lavabos e banheiros</li>
+              <li className="text-sm text-card/70">Pias e bancadas</li>
+              <li className="text-sm text-card/70">Escadas e revestimentos</li>
+              <li className="text-sm text-card/70">Soleiras e peitoris</li>
+              <li className="text-sm text-card/70">Banheiros e lavabos</li>
               <li className="text-sm text-card/70">Áreas gourmet</li>
+              <li className="text-sm text-card/70">Túmulos e jazigos</li>
             </ul>
           </div>
 

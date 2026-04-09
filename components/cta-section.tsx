@@ -17,8 +17,8 @@ export function CtaSection() {
           Transforme suas superficies com pedra natural
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/80">
-          Envie uma mensagem no WhatsApp e receba um atendimento rapido para escolher a
-          melhor pedra, entender medidas, prazo e ter um orcamento sob medida, sem compromisso.
+          Envie uma mensagem no WhatsApp e receba um atendimento rapido para escolher a melhor pedra,
+          identificar projetos, prazos de execução e o orçamento preciso.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

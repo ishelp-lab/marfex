@@ -12,7 +12,7 @@ const tips = [
   {
     icon: Droplets,
     title: "Limpe líquidos imediatamente",
-    description: "Quanto mais rápido limpar, menor o risco de manchas na pedra.",
+    description: "Quanto mais rápido limpar, menor o risco de absorção na pedra, evitando ocasionar em manchas.",
   },
   {
     icon: Shield,
@@ -41,7 +41,7 @@ export function TipsSection() {
             Dicas de cuidado
           </p>
           <h2 className="font-serif text-3xl font-bold leading-tight text-card md:text-5xl text-balance">
-            Quer manter o mármore sempre bonito?
+            Quer preservar a sua pedra por mais tempo?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-card/70">
             Com alguns cuidados simples no dia a dia, sua pedra permanece impecável.

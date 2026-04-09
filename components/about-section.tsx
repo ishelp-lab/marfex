@@ -56,10 +56,10 @@ export function AboutSection() {
 
             <ul className="mt-8 flex flex-col gap-4">
               {[
-                "Equipe especializada e expêriente",
+                "Equipe especializada e experiente",
                 "Materiais selecionados com critério",
                 "Medições e cortes de alta precisão",
-                "Instalação profissional no capricho",
+                "Instalação profissional com rigor técnico",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <CheckCircle className="h-5 w-5 shrink-0 text-primary" />

@@ -2,10 +2,10 @@ export interface Stone {
   id: string
   name: string
   category:
-    | "Marmore"
     | "Granito"
-    | "Quartzo" 
+    | "Marmore"
     | "Quartzito"
+    | "Quartzo" 
     | "Dolomitico"
     | "Supernanoglass"
     | "Laminas"
@@ -253,10 +253,10 @@ export const stones: Stone[] = [
 
 export const categories = [
   "Todos",
-  "Marmore",
   "Granito",
-  "Quartzo",
+  "Marmore",
   "Quartzito",
+  "Quartzo",
   "Dolomitico",
   "Supernanoglass",
   "Laminas",
