@@ -49,7 +49,7 @@ export function ServicesSection() {
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
             Nossos diferenciais
           </p>
-          <h2 className="font-serif text-9xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
+          <h2 className="font-serif text-4xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
             Transformamos rochas milenares com tecnologia moderna
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
