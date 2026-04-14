@@ -15,7 +15,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   // Define o URL base para resolver caminhos de imagens relativos
-  metadataBase: new URL('/app/opengraph-image.jpg'), 
+  metadataBase: new URL('https://www.marmorariamarfex.com.br'), 
   
   title: 'Marmoraria Marfex',
   description: 'pedras únicas e atemporais para quem valoriza a precisão em cada detalhe.'
