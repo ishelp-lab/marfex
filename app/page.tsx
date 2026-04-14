@@ -15,23 +15,24 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   // Define o URL base para resolver caminhos de imagens relativos
-  metadataBase: new URL('https://www.marmorariamarfex.com.br/'), 
+  metadataBase: new URL('/app/opengraph-image.jpg'), 
   
-  title: 'Título da Página',
-  description: 'Descrição para SEO',
+  title: 'Marmoraria Marfex',
+  description: 'pedras únicas e atemporais para quem valoriza a precisão em cada detalhe.'
+,
 
   // Configurações para Facebook, LinkedIn, WhatsApp (Open Graph)
   openGraph: {
     title: 'Título do Card Social',
     description: 'Breve descrição que aparece abaixo do título no card.',
-    url: 'https://seu-site.com',
-    siteName: 'Nome do Meu Projeto',
+    url: 'https://www.marmorariamarfex.com.br', // URL do seu site
+    siteName: 'Marmoraria Marfex',
     images: [
       {
-        url: '/og-image.png', // Caminho na pasta /public ou URL completa
+        url: '/opengraph-image.jpg', // Caminho na pasta /public ou URL completa
         width: 1200,
         height: 630,
-        alt: 'Descrição da imagem para acessibilidade',
+        alt: 'Imagem com várias pedras de mármore e granito, destacando a variedade e qualidade dos materiais oferecidos pela Marmoraria Marfex.',
       },
     ],
     locale: 'pt_PT',
@@ -41,9 +42,9 @@ export const metadata: Metadata = {
   // Configurações para Twitter (Twitter Card)
   twitter: {
     card: 'summary_large_image',
-    title: 'Título do Card Social',
-    description: 'Breve descrição que aparece abaixo do título no card.',
-    images: ['/og-image.png'],
+    title: 'Marmoraria Marfex',
+    description: 'pedras únicas e atemporais para quem valoriza a precisão em cada detalhe.',
+    images: ['/opengraph-image.jpg'],
   },
 }
 
