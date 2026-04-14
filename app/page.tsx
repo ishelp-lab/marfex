@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Marmoraria Marfex',
       description: 'pedras únicas e atemporais para quem valoriza a precisão em cada detalhe.',
-    images: ['https://www.marmorariamarfex.com.br/public/images/opengraph-image.jpg'],
+    images: ['https://www.marmorariamarfex.com.br/images/opengraph-image.jpg'],
   },
 }
 
