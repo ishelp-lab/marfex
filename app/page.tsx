@@ -23,13 +23,13 @@ export const metadata: Metadata = {
 
   // Configurações para Facebook, LinkedIn, WhatsApp (Open Graph)
   openGraph: {
-    title: 'Título do Card Social',
-    description: 'Breve descrição que aparece abaixo do título no card.',
+    title: 'Marmoraria Marfex',
+    description: 'Conheça nossa marmoraria, onde a excelência em pedras naturais se encontra com a arte da precisão. Oferecemos uma variedade de mármores e granitos exclusivos, perfeitos para transformar seus projetos em obras-primas atemporais.',
     url: 'https://www.marmorariamarfex.com.br', // URL do seu site
     siteName: 'Marmoraria Marfex',
     images: [
       {
-        url: '/opengraph-image.jpg', // Caminho na pasta /public ou URL completa
+        url: 'https://www.marmorariamarfex.com.br/public/images/opengraph-image.jpg', // Caminho na pasta /public ou URL completa
         width: 1200,
         height: 630,
         alt: 'Imagem com várias pedras de mármore e granito, destacando a variedade e qualidade dos materiais oferecidos pela Marmoraria Marfex.',
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Marmoraria Marfex',
-    description: 'pedras únicas e atemporais para quem valoriza a precisão em cada detalhe.',
-    images: ['/opengraph-image.jpg'],
+      description: 'pedras únicas e atemporais para quem valoriza a precisão em cada detalhe.',
+    images: ['https://www.marmorariamarfex.com.br/public/images/opengraph-image.jpg'],
   },
 }
 
