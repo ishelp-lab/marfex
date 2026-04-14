@@ -45,11 +45,11 @@ export function ServicesSection() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-6">
         {/* Header */}
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-4xl text-center">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-primary">
             Nossos diferenciais
           </p>
-          <h2 className="font-serif text-3xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
+          <h2 className="font-serif text-9xl font-bold leading-tight text-transparent bg-clip-text md:text-5xl text-balance" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
             Transformamos rochas milenares com tecnologia moderna
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
