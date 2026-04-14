@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Marmoraria Marfex',
     images: [
       {
-        url: 'https://www.marmorariamarfex.com.br/images/opengraph-image.jpg', // Caminho na pasta /public ou URL completa
+        url: '/images/opengraph-image.jpg', // Caminho na pasta /public or URL completa
         width: 1200,
         height: 630,
         alt: 'Imagem com várias pedras de mármore e granito, destacando a variedade e qualidade dos materiais oferecidos pela Marmoraria Marfex.',
