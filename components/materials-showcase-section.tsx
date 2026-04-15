@@ -38,7 +38,7 @@ const materials = [
     name: "Supernanoglass",
     image: "/images/showcase/Super NanoGlass.png",
     description:
-      "Estética contemporânea, visual uniforme e resultado marcante para propostas modernas.",
+      "Estética minimalista, visual uniforme e resultado marcante para propostas modernas.",
   },
   {
     name: "Lâminas",
@@ -307,8 +307,8 @@ export function MaterialsShowcaseSection() {
                 Observação importante
               </p>
               <p className="text-sm leading-relaxed text-white/70">
-                Por se tratarem de materiais naturais, cores, veios e nuances podem
-                variar de uma peça para outra, tornando cada projeto único.
+                Por se tratarem de materiais naturais, cores, veios e tonalidades podem
+                variar de uma pedra para outra, tornando cada projeto único.
               </p>
             </div>
           </div>
