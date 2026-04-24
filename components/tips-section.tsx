@@ -16,7 +16,7 @@ const tips = [
   },
   {
     icon: Shield,
-    title: "Faça impermeabilização periférica",
+    title: "Faça impermeabilização periodicamente",
     description: "Ela ajuda a preservar a durabilidade e beleza da pedra por muito mais tempo.",
   },
 ]

@@ -18,7 +18,7 @@ export function Footer() {
             />
             <p className="text-sm leading-relaxed text-card/70">
               Especialistas em mármores, granitos e quartzitos.
-              Transformando ambientes com acabamento premium desde 2018.
+              Transformando ambientes com acabamento premium desde 2011.
             </p>
           </div>
 
