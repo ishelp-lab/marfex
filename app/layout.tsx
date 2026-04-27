@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import CookieBanner from '@/components/cookie-banner'
 import './globals.css'
 
 const _inter = Inter({
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         {children}
         <Analytics />
+        <CookieBanner />
       </body>
     </html>
   )
