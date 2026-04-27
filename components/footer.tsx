@@ -48,6 +48,11 @@ export function Footer() {
                   Sobre nós
                 </Link>
               </li>
+              <li>
+                <Link href="/politica-de-privacidade" className="text-sm text-card/70 transition-colors hover:text-primary">
+                  Política de Privacidade
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -100,10 +105,15 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 border-t border-card/10 pt-8 text-center">
-          <p className="text-xs text-card/50">
-            {'© 2026 Marmoraria Marfex. Todos os direitos reservados.'}
-          </p>
+        <div className="mt-12 border-t border-card/10 pt-8">
+          <div className="flex flex-col items-center gap-2 text-center md:flex-row md:justify-between">
+            <p className="text-xs text-card/50">
+              {'© 2026 Marmoraria Marfex. Todos os direitos reservados.'}
+            </p>
+            <p className="text-xs text-card/40">
+              CNPJ: 57.054.460/0001-10
+            </p>
+          </div>
         </div>
       </div>
     </footer>

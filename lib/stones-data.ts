@@ -151,16 +151,16 @@ export const stones: Stone[] = [
       "Visual clean e sofisticado, ideal para ambientes claros.",
     applications: ["Bancadas", "Lavabos", "Cozinhas"],
   },
-  {
-    id: "cinza-kensho",
-    name: "Quartzo Cinza Kensho",
-    category: "Quartzo",
-    color: "Cinza",
-    image: "/images/stones/cinza-kensho.jpg",
-    description:
-      "Tonalidade neutra e versátil para projetos contemporâneos.",
-    applications: ["Bancadas", "Cozinhas", "Ilhas"],
-  },
+  // {
+  //   id: "cinza-kensho",
+  //   name: "Quartzo Cinza Kensho",
+  //   category: "Quartzo",
+  //   color: "Cinza",
+  //   image: "/images/stones/cinza-kensho.jpg",
+  //   description:
+  //     "Tonalidade neutra e versátil para projetos contemporâneos.",
+  //   applications: ["Bancadas", "Cozinhas", "Ilhas"],
+  // },
   {
     id: "cinza-vulcano",
     name: "Quartzo Cinza Vulcano",
@@ -203,16 +203,16 @@ export const stones: Stone[] = [
   },
 
   // QUARTZITOS
-  {
-    id: "verde-gaia",
-    name: "Quartzito Verde Gaia",
-    category: "Quartzito",
-    color: "Verde",
-    image: "/images/stones/verde-gaia.jpg",
-    description:
-      "Visual exótico com tonalidades verdes intensas.",
-    applications: ["Lavabos", "Revestimentos", "Bancadas"],
-  },
+  // {
+  //   id: "verde-gaia",
+  //   name: "Quartzito Verde Gaia",
+  //   category: "Quartzito",
+  //   color: "Verde",
+  //   image: "/images/stones/verde-gaia.jpg",
+  //   description:
+  //     "Visual exótico com tonalidades verdes intensas.",
+  //   applications: ["Lavabos", "Revestimentos", "Bancadas"],
+  // },
   {
     id: "emerald-green",
     name: "Quartzito Emerald Green",
@@ -284,11 +284,11 @@ export const stones: Stone[] = [
     applications: ["Lavabos", "Revestimentos", "Bancadas"],
   },
   {
-    id: "quartzito-maya",
-    name: "Quartzito Maya",
+    id: "quartzito-gaya",
+    name: "Quartzito gaya",
     category: "Quartzito",
     color: "Cinza",
-    image: "/images/stones/quartzito-maya.png",
+    image: "/images/stones/quartzito-gaya.png",
     description:
       "Elegância atemporal com padronagem única e tons sóbrios.",
     applications: ["Bancadas", "Ilhas", "Áreas Gourmet"],
