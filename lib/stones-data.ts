@@ -161,16 +161,16 @@ export const stones: Stone[] = [
   //     "Tonalidade neutra e versátil para projetos contemporâneos.",
   //   applications: ["Bancadas", "Cozinhas", "Ilhas"],
   // },
-  {
-    id: "cinza-vulcano",
-    name: "Quartzo Cinza Vulcano",
-    category: "Quartzo",
-    color: "Cinza",
-    image: "/images/stones/cinza-vulcano.jpg",
-    description:
-      "Cinza profundo com presença marcante e acabamento moderno.",
-    applications: ["Bancadas", "Áreas Gourmet", "Cozinhas"],
-  },
+  // {
+  //   id: "cinza-vulcano",
+  //   name: "Quartzo Cinza Vulcano",
+  //   category: "Quartzo",
+  //   color: "Cinza",
+  //   image: "/images/stones/cinza-vulcano.jpg",
+  //   description:
+  //     "Cinza profundo com presença marcante e acabamento moderno.",
+  //   applications: ["Bancadas", "Áreas Gourmet", "Cozinhas"],
+  // },
   {
     id: "calacata",
     name: "Quartzo Calacata",
@@ -285,7 +285,7 @@ export const stones: Stone[] = [
   },
   {
     id: "quartzito-gaya",
-    name: "Quartzito gaya",
+    name: "Quartzito Gaya",
     category: "Quartzito",
     color: "Cinza",
     image: "/images/stones/quartzito-gaya.png",
@@ -295,7 +295,7 @@ export const stones: Stone[] = [
   },
   {
     id: "verde-lake-tande",
-    name: "Quartzito Verde Lake Tande",
+    name: "Quartzito Verde Lake",
     category: "Quartzito",
     color: "Verde",
     image: "/images/stones/verde-lake-tande.png",
