@@ -287,7 +287,7 @@ export const stones: Stone[] = [
     id: "quartzito-gaya",
     name: "Quartzito Gaya",
     category: "Quartzito",
-    color: "Cinza",
+    color: "Verde",
     image: "/images/stones/quartzito-gaya.png",
     description:
       "Elegância atemporal com padronagem única e tons sóbrios.",
@@ -349,7 +349,7 @@ export const stones: Stone[] = [
     id: "dolomitico-vasari",
     name: "Dolomítico Vasari",
     category: "Dolomitico",
-    color: "Branco",
+    color: "Preto",
     image: "/images/stones/dolomitico-vasari.png",
     description:
       "Exclusividade e brilho natural para ambientes sofisticados e contemporâneos.",
@@ -359,7 +359,7 @@ export const stones: Stone[] = [
     id: "super-white",
     name: "Super White",
     category: "Dolomitico",
-    color: "Cinza",
+    color: "Branco",
     image: "/images/stones/super-white.png",
     description:
       "Nuances de cinza e branco formando um padrão visual marcante.",
