@@ -2,13 +2,13 @@ export interface Stone {
   id: string
   name: string
   category:
-    | "Granito"
-    | "Marmore"
-    | "Quartzito"
-    | "Quartzo" 
-    | "Dolomitico"
-    | "Supernanoglass"
-    | "Laminas"
+  | "Granito"
+  | "Marmore"
+  | "Quartzito"
+  | "Quartzo"
+  | "Dolomitico"
+  | "Supernanoglass"
+  | "Laminas"
   color: string
   image: string
   description: string
@@ -22,7 +22,7 @@ export const stones: Stone[] = [
     name: "Travertino Romano",
     category: "Marmore",
     color: "Bege",
-    image: "/images/stones/pedras/Travertino Romano.png",
+    image: "/images/stones/pedras/travertino-romano.png",
     description:
       "Clássico atemporal com textura natural e elegância suave.",
     applications: ["Bancadas", "Revestimentos", "Lavabos"],
@@ -84,7 +84,7 @@ export const stones: Stone[] = [
     name: "Granito Black Ferreiro",
     category: "Granito",
     color: "Preto",
-    image: "/images/stones/pedras/Black Ferreiro.png",
+    image: "/images/stones/pedras/black-ferreiro.png",
     description:
       "Elegância e imponência com alta resistência e um visual profundo.",
     applications: ["Cozinhas", "Bancadas", "Áreas Gourmet"],
@@ -94,7 +94,7 @@ export const stones: Stone[] = [
     name: "Granito Café Imperial",
     category: "Granito",
     color: "Bege",
-    image: "/images/stones/pedras/Café Imperial.png",
+    image: "/images/stones/pedras/cafe-imperial.png",
     description:
       "Tonalidade marcante com extrema resistência, ideal para projetos sofisticados.",
     applications: ["Bancadas", "Banheiros", "Revestimentos"],
@@ -104,7 +104,7 @@ export const stones: Stone[] = [
     name: "Granito Preto Indiano",
     category: "Granito",
     color: "Preto",
-    image: "/images/stones/pedras/Preto Indiano.png",
+    image: "/images/stones/pedras/preto-indiano.png",
     description:
       "Granito escuro com veios sutis que conferem movimento e elegância.",
     applications: ["Bancadas", "Cozinhas", "Áreas Gourmet"],
@@ -136,7 +136,7 @@ export const stones: Stone[] = [
     name: "Quartzo Preto Stellar",
     category: "Quartzo",
     color: "Preto",
-    image: "/images/stones/pedras/Preto Stellar.png",
+    image: "/images/stones/pedras/preto-stellar.png",
     description:
       "Fundo escuro com brilho elegante para ambientes modernos.",
     applications: ["Bancadas", "Áreas Gourmet", "Cozinhas"],
@@ -146,7 +146,7 @@ export const stones: Stone[] = [
     name: "Quartzo Sky White",
     category: "Quartzo",
     color: "Branco",
-    image: "/images/stones/pedras/Sky White.png",
+    image: "/images/stones/pedras/sky-white.png",
     description:
       "Visual clean e sofisticado, ideal para ambientes claros.",
     applications: ["Bancadas", "Lavabos", "Cozinhas"],
@@ -176,7 +176,7 @@ export const stones: Stone[] = [
     name: "Quartzo Calacata",
     category: "Quartzo",
     color: "Branco",
-    image: "/images/stones/pedras/Quartzo Calacata.png",
+    image: "/images/stones/pedras/quartzo-calacata.png",
     description:
       "Inspirado no mármore, com veios marcantes e elegância premium.",
     applications: ["Ilhas", "Cozinhas", "Bancadas"],
@@ -186,7 +186,7 @@ export const stones: Stone[] = [
     name: "Quartzo Branco",
     category: "Quartzo",
     color: "Branco",
-    image: "/images/stones/pedras/Quartzo Branco.png",
+    image: "/images/stones/pedras/quartzo-branco.png",
     description:
       "Superfície branca pura e uniforme, extremamente versátil.",
     applications: ["Cozinhas", "Bancadas", "Ilhas"],
@@ -196,7 +196,7 @@ export const stones: Stone[] = [
     name: "Quartzo Cinza",
     category: "Quartzo",
     color: "Cinza",
-    image: "/images/stones/pedras/Quartzo Cinza.png",
+    image: "/images/stones/pedras/quartzo-cinza.png",
     description:
       "Tom cinza sofisticado para projetos com estilo industrial e moderno.",
     applications: ["Bancadas", "Lavabos", "Cozinhas"],
@@ -228,7 +228,7 @@ export const stones: Stone[] = [
     name: "Quartzito Taj Mahal",
     category: "Quartzito",
     color: "Bege",
-    image: "/images/stones/pedras/Taj Mahal.png",
+    image: "/images/stones/pedras/taj-mahal.png",
     description:
       "Clássico sofisticado com tons suaves e alta durabilidade.",
     applications: ["Cozinhas", "Bancadas", "Banheiros"],
@@ -238,7 +238,7 @@ export const stones: Stone[] = [
     name: "Quartzito Perla Venata Escovado",
     category: "Quartzito",
     color: "Bege",
-    image: "/images/stones/pedras/Perla Venata Escovado.png",
+    image: "/images/stones/pedras/perla-venata-escovado.png",
     description:
       "Elegância com veios delicados e acabamento refinado escovado.",
     applications: ["Bancadas", "Lavabos", "Revestimentos"],
@@ -248,7 +248,7 @@ export const stones: Stone[] = [
     name: "Quartzito Cristallo",
     category: "Quartzito",
     color: "Branco",
-    image: "/images/stones/pedras/Cristallo.png",
+    image: "/images/stones/pedras/cristallo.png",
     description:
       "Pedra translúcida e deslumbrante, ideal para projetos iluminados e luxuosos.",
     applications: ["Bancadas", "Ilhas", "Revestimentos"],
@@ -258,7 +258,7 @@ export const stones: Stone[] = [
     name: "Quartzito Da Vinci",
     category: "Quartzito",
     color: "Verde",
-    image: "/images/stones/pedras/Da Vinci.png",
+    image: "/images/stones/pedras/da-vinci.png",
     description:
       "Padrões complexos e tons ricos, trazendo personalidade e arte para o ambiente.",
     applications: ["Revestimentos", "Bancadas", "Ilhas"],
@@ -268,7 +268,7 @@ export const stones: Stone[] = [
     name: "Quartzito Kouros",
     category: "Quartzito",
     color: "Cinza",
-    image: "/images/stones/pedras/Kouros.png",
+    image: "/images/stones/pedras/kouros.png",
     description:
       "Tonalidade neutra com veios exóticos e alta durabilidade.",
     applications: ["Bancadas", "Cozinhas", "Banheiros"],
@@ -278,7 +278,7 @@ export const stones: Stone[] = [
     name: "Quartzito Maragoggi",
     category: "Quartzito",
     color: "Branco",
-    image: "/images/stones/pedras/Maragoggi.png",
+    image: "/images/stones/pedras/maragoggi.png",
     description:
       "Beleza suave e orgânica que remete às famosas praias brasileiras.",
     applications: ["Lavabos", "Revestimentos", "Bancadas"],
@@ -288,7 +288,7 @@ export const stones: Stone[] = [
     name: "Quartzito Maya",
     category: "Quartzito",
     color: "Cinza",
-    image: "/images/stones/pedras/Quartzito Maya.png",
+    image: "/images/stones/pedras/quartzito-maya.png",
     description:
       "Elegância atemporal com padronagem única e tons sóbrios.",
     applications: ["Bancadas", "Ilhas", "Áreas Gourmet"],
@@ -298,7 +298,7 @@ export const stones: Stone[] = [
     name: "Quartzito Verde Lake Tande",
     category: "Quartzito",
     color: "Verde",
-    image: "/images/stones/pedras/Verde Lake Tande.png",
+    image: "/images/stones/pedras/verde-lake-tande.png",
     description:
       "Tonalidade exótica e vibrante, perfeita para ambientes com design arrojado.",
     applications: ["Lavabos", "Revestimentos", "Bancadas"],
@@ -340,7 +340,7 @@ export const stones: Stone[] = [
     name: "Verde Guatemala",
     category: "Dolomitico",
     color: "Verde",
-    image: "/images/stones/pedras/Verde Guatemala.png",
+    image: "/images/stones/pedras/verde-guatemala.png",
     description:
       "Verde profundo com presença forte e elegante.",
     applications: ["Bancadas", "Revestimentos", "Lavabos"],
@@ -350,7 +350,7 @@ export const stones: Stone[] = [
     name: "Dolomítico Vasari",
     category: "Dolomitico",
     color: "Branco",
-    image: "/images/stones/pedras/Dolomítico Vasari.png",
+    image: "/images/stones/pedras/dolomitico-vasari.png",
     description:
       "Exclusividade e brilho natural para ambientes sofisticados e contemporâneos.",
     applications: ["Lavabos", "Revestimentos", "Banheiros"],
@@ -360,7 +360,7 @@ export const stones: Stone[] = [
     name: "Super White",
     category: "Dolomitico",
     color: "Cinza",
-    image: "/images/stones/pedras/Super White.png",
+    image: "/images/stones/pedras/super-white.png",
     description:
       "Nuances de cinza e branco formando um padrão visual marcante.",
     applications: ["Bancadas", "Cozinhas", "Ilhas"],
