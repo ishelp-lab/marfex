@@ -111,16 +111,16 @@ export const stones: Stone[] = [
   },
 
   // QUARTZOS
-  {
-    id: "branco-zeus",
-    name: "Quartzo Branco Zeus",
-    category: "Quartzo",
-    color: "Branco",
-    image: "/images/stones/branco-zeus.jpg",
-    description:
-      "Branco puro com acabamento uniforme para projetos modernos.",
-    applications: ["Cozinhas", "Bancadas", "Ilhas"],
-  },
+  // {
+  //   id: "branco-zeus",
+  //   name: "Quartzo Branco Zeus",
+  //   category: "Quartzo",
+  //   color: "Branco",
+  //   image: "/images/stones/branco-zeus.jpg",
+  //   description:
+  //     "Branco puro com acabamento uniforme para projetos modernos.",
+  //   applications: ["Cozinhas", "Bancadas", "Ilhas"],
+  // },
   {
     id: "branco-stellar",
     name: "Quartzo Branco Stellar",
